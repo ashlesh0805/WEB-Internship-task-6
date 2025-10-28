@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Task 6</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <h1>Get in Touch</h1>
+      <p>We’d love to hear from you! Please fill out the form below and we’ll get back to you as soon as possible.</p>
+      <div class="details">
+        <p><strong>Address:</strong> Hyderabad, Telangana</p>
+        <p><strong>Email:</strong> gurramashlesh@outlook.com</p>
+        <p><strong>Phone:</strong> +91 7780649938</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h2>Contact Form</h2>
+      <form id="contactForm">
+        <div class="input-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" required />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email address" required />
+        </div>
+        <div class="input-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="status"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
